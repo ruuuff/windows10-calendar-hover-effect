@@ -9,7 +9,7 @@ export default function Home() {
     .fill(0)
     .map((_, index) => index + 1);
   const bgEffectRefs = useRef<(HTMLDivElement | null)[]>([]);
-  const daysOnWeek = ["Sa", "Fr", "Th", "We", "Tu", "Mo", "Su"];
+  const daysOnWeek = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
 
   useEffect(() => {
     const mousePositions: { x: number; y: number }[] = [];
